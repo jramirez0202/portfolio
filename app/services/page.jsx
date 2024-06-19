@@ -8,29 +8,15 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "La conga tiene su origen en los tambores africanos hechos a partir de un tronco sólido ahuecado y con una piel clavada sobre la abertura de un extremo. El tambor de makuta, de origen bantú, ha sido identificado como un posible antepasado. Otro antiguo nombre dado por los nativos africanos a este instrumento fue «tahona». ",
-    href: "",
+      "Servicio de desarrollo de páginas web desde cero hasta la optimización de sitios existentes para mejorar su funcionalidad y rendimiento. He trabajado con tecnologías como HTML, CSS, JavaScript, entre otras y frameworks como Next.js y Ruby on Rails.",
+      href: "#",
   },
   {
     num: "02",
-    title: "UI/UX Desing",
+    title: "Mantenciòn de Sitios",
     description:
-      "La conga tiene su origen en los tambores africanos hechos a partir de un tronco sólido ahuecado y con una piel clavada sobre la abertura de un extremo. El tambor de makuta, de origen bantú, ha sido identificado como un posible antepasado. Otro antiguo nombre dado por los nativos africanos a este instrumento fue «tahona». ",
-    href: "",
-  },
-  {
-    num: "03",
-    title: "Ruby on rails",
-    description:
-      "La conga tiene su origen en los tambores africanos hechos a partir de un tronco sólido ahuecado y con una piel clavada sobre la abertura de un extremo. El tambor de makuta, de origen bantú, ha sido identificado como un posible antepasado. Otro antiguo nombre dado por los nativos africanos a este instrumento fue «tahona». ",
-    href: "",
-  },
-  {
-    num: "04",
-    title: "DevOps",
-    description:
-      "La conga tiene su origen en los tambores africanos hechos a partir de un tronco sólido ahuecado y con una piel clavada sobre la abertura de un extremo. El tambor de makuta, de origen bantú, ha sido identificado como un posible antepasado. Otro antiguo nombre dado por los nativos africanos a este instrumento fue «tahona».",
-    href: "",
+      "Esto complementa porque tengo experiencia en la gestión de hosting y despliegue de sitios en plataformas como Hostgator, Godaddy Heroku y Firerbase lo que me permite ofrecer soluciones completas y funcionales a los clientes.",
+    href: "#",
   },
 ];
 

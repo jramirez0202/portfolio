@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva } from "class-variance-authority";
+import {FiDownload} from "react-icons/fi"
 
 import { cn } from "@/lib/utils"
 
@@ -9,7 +10,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-accent text-primary hover:bg-accent-hover",
+        default: "bg-accent text-primary hover:bg-white",
         primary: "bg-primary text-white",
         outline: "border border-accent bg-transparent text-accent hover:bg-accent hover:text-primary",
         
@@ -36,6 +37,23 @@ const Button = React.forwardRef(({ className, variant, size, asChild = false, ..
       {...props} />)
   );
 })
+
+
+const DownloadCvButton = () => {
+  return (
+    <a href="/johan_ramirez.pdf" download>
+      <Button
+        variant="outline"
+        size="lg"
+        className="uppercase flex items-center gap-2"
+      >
+        <span>Descargar CV</span>
+        <FiDownload className="text-xl" />
+      </Button>
+    </a>
+  );
+};
+
 Button.displayName = "Button"
 
-export { Button, buttonVariants }
+export { Button, buttonVariants, DownloadCvButton }

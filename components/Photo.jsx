@@ -11,18 +11,19 @@ const Photo = () => {
           transition:{delay: 2, duration:0.4, ease:"easeIn"}
           }}>
         <motion.div 
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[298px] h-[300px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
           initial={{opacity:0}}
           animate={{
             opacity:1, 
             transition:{delay:2.4, duration:0.4, ease:"easeInOut"}
             }}>
           <Image 
-            src="/assets/samoyedo.png"
+            src="/assets/sin_fondo1.png"
             className="objet-contain"
             priority 
             quality={100} 
-            fill 
+            fill
+            sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
             alt="my image" 
             />
         </motion.div>
@@ -37,8 +38,8 @@ const Photo = () => {
         <motion.circle 
           cx="253" 
           cy="253" 
-          r="250" 
-          stroke="#00ff99" 
+          r="265" 
+          stroke="#58FCEC" 
           strokeWidth="4" 
           strokeLinecap="round" 
           strokeLinejoin="round"

@@ -10,116 +10,90 @@ import {
 import {SiTailwindcss, SiNextdotjs, SiRubyonrails, SiBootstrap  } from "react-icons/si";
 
 const about = {
-  title: "About me",
-  description: "I am a full stack developer with a passion for building web applications. I have a strong background in web development, with experience in front-end and back-end development. I am proficient in HTML, CSS, JavaScript, and React, and I have experience with Node.js and Tailwind CSS. I am also familiar with other web development technologies such as PHP, Python, and Ruby on Rails. I have a deep understanding of the principles of software development and have a strong ability to solve complex problems and create efficient and scalable applications.",
+  title: "Quien soy?",
+  description: "Soy un desarrollador fullstack apasionado por la innovación y la resolución de problemas en esta era digital. Disfruto trabajar en proyectos personales y aplicar soluciones a problemas reales. Actualmente formo parte de una startup, donde he adquirido un amplio conocimiento del negocio, la comprensión de las necesidades del cliente y la entrega de soluciones escalables. En lo personal, soy aficionado al deporte, tengo una mascota y me gusta estar informado sobre los avances tecnológicos.",
   info: [
     {
-      filedName: "Name",
-      fieldValue: "John Doe",
+      fieldName: "Nombre",
+      fieldValue: "Johan Ramirez",
     },
     {
-      filedName: "Phone",
-      fieldValue: "+56 930762570",
-    },
-    {
-      filedName: "Experiencia",
+      fieldName: "Experiencia",
       fieldValue: "3 años",
     },
     {
-      filedName: "Nacionalidad",
-      fieldValue: "Venezuela",
+      fieldName: "Email",
+      fieldValue: "johkcolom@gmail.com",
     },
     {
-      filedName: "Email",
-      fieldValue: "Johkcolom@gmail.com",
+      fieldName: "Residencia",
+      fieldValue: "Chile",
     },
-]
+    {
+      fieldName: "Teléfono",
+      fieldValue: "+56 930762570",
+    },
+  ]
 }
 
 const experience = {
   icon:"/assets/resume/icons/badge.svg",
   title: "Mi Experiencia",
-  description: "En mi experiencia, he trabajado en varias empresas y proyectos, utilizando diferentes lenguajes de programación y tecnologías. He desarrollado aplicaciones web, móviles, y de escritorio, y he trabajado en proyectos de software de terceros. También he participado en proyectos de investigación y desarrollo de software, y he trabajado en equipos de desarrollo de software para empresas y organizaciones. En mi trabajo, he ha aplicado técnicas de programación y diseño de software, y he ha trabajado en la creación de soluciones de software y aplicaciones web. Además, he ha trabajado en el desarrollo de aplicaciones web y móviles utilizando tecnologías como React, Node.js, y Tailwind CSS.",
+  description: "Tengo experiencia en desarrollo de software y he usado diferentes herramientas y frameworks. Soy muy adaptable y me gusta trabajar en equipo. Actualmente me siento más cómodo trabajando como Frontend; sin embargo, el tiempo me ha llevado a tomar cariño por el Backend. Sé que cambia el paradigma de programación, pero me complementa como fullstack developer.",
   items:[
     {
-      company:"empresa",
+      company:"GarageLabs",
       position: "fullstack developer",
-      duration: "2022-2023"
+      duration: "2021-actual"
     },
     {
-      company:"empresa dos",
-      position: "fullstack developer",
-      duration: "2022-2023"
+      company:"Chornos app",
+      position: "frontend developer",
+      duration: "freelance 2023"
     },
     {
-      company:"empresa tres",
+      company:"Properties in usa",
       position: "fullstack developer",
-      duration: "2022-2023"
+      duration: "freelance 2024"
     },
-    {
-      company:"empresa tres",
-      position: "fullstack developer",
-      duration: "2022-2023"
-    },
-    {
-      company:"empresa tres",
-      position: "fullstack developer",
-      duration: "2022-2023"
-    },
-    {
-      company:"empresa tres",
-      position: "fullstack developer",
-      duration: "2022-2023"
-    }
   ]
 }
 
 const education = {
   icon:"/assets/resume/icons/badge.svg",
   title: "Mi aprendizaje",
-  description: "En mi experiencia, he trabajado en varias empresas y proyectos, utilizando diferentes lenguajes de programación y tecnologías. He desarrollado aplicaciones web, móviles, y de escritorio, y he trabajado en proyectos de software de terceros. También he participado en proyectos de investigación y desarrollo de software, y he trabajado en equipos de desarrollo de software para empresas y organizaciones. En mi trabajo, he ha aplicado técnicas de programación y diseño de software, y he ha trabajado en la creación de soluciones de software y aplicaciones web. Además, he ha trabajado en el desarrollo de aplicaciones web y móviles utilizando tecnologías como React, Node.js, y Tailwind CSS.",
+  description: "Estudié Ingeniería en Sistemas en Venezuela. En Chile, en 2020, tomé un Bootcamp que me permitió tener mi primera oportunidad laboral, la cual aproveché para seguir formándome y aplicar mis conocimientos en el desarrollo de software",
   items:[
     {
       institution:"Desafio Latam Bootcamp",
       degree: "Certified Fullstack Developer",
-      duration: "2022-2023"
+      duration: "2020"
     },
     {
       institution:"Udemy",
-      degree: "react hooks ",
-      duration: "2022-2023"
+      degree: "React Hooks ",
+      duration: "2022"
     },
     {
-      company:"Coder house Bootcamp",
-      degree: "frontend developer",
-      duration: "2022-2023"
+      institution:"CoderHouse Bootcamp",
+      degree: "Certified Frontend Developer",
+      duration: "2023"
+    },
+    {
+      institution:"Autodidacta",
+      degree: "Webinars, seminarios y workshops",
+      duration: "En curso"
     }
   ]
 }
 
 const skills = {
   title: "Mis habilidades",
-  description:"blbal bla",
+  description:"",
   skillList:[
-    {
-      icon: <FaHtml5/>,
-      name: "HTML5"
-    },
-    {
-      icon: <FaCss3/>,
-      name: "CSS3"
-    },
-    {
-      icon: <FaJs/>,
-      name: "JavaScript"
-    },
     {
       icon: <FaReact/>,
       name: "React.js"
-    },
-    {
-      icon: <SiTailwindcss/>,
-      name: "Tailwind CSS"
     },
     {
       icon: <SiNextdotjs/>,
@@ -128,6 +102,22 @@ const skills = {
     {
       icon: <SiRubyonrails/>,
       name: "Ruby on Rails"
+    },
+    {
+      icon: <FaJs/>,
+      name: "JavaScript"
+    },
+    {
+      icon: <SiTailwindcss/>,
+      name: "Tailwind CSS"
+    },
+    {
+      icon: <FaHtml5/>,
+      name: "HTML5"
+    },
+    {
+      icon: <FaCss3/>,
+      name: "CSS"
     },
     {
       icon: <SiBootstrap/>,
@@ -167,95 +157,109 @@ const Resume = () => {
             <TabsTrigger value="experience">Experiencia</TabsTrigger>
             <TabsTrigger value="education">Educación</TabsTrigger>
             <TabsTrigger value="skills">Habilidades</TabsTrigger>
-            <TabsTrigger value="About Me">Acerca de mi</TabsTrigger>
+            <TabsTrigger value="about">Acerca de Mí</TabsTrigger>
           </TabsList>
           
-        <div className="min-h-[70vh] w-full">
-          <TabsContent value="experience" className="w-full">
-            <div className="flex flex-col gap-[30px] text-center xl:text-left">
-              <h3 className="text-4xl font-bold">{experience.title}</h3>
-              <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
-                {experience.description}
-              </p>
-              <ScrollArea className="h-[400px]">
-                <ul className="grid grid-cols-2 lg:grid-cols-2 gap-[30px]">
-                  {experience.items.map((item, index) => {
-                    return (
-                      <li key={index} className="flex flex-col bg-[#232329] h-[184px] rounded-xl py-6 px-10 items-center lg:items-start gap-1">
-                        <span className="text-accent">{item.duration}</span>                        
-                        <h3 className="text-xl max-w-[260px] min-h-[60px] text-centerlg:text-left">{item.position}</h3>
-                        <div className="flex items-center gap-3">
-                          <span className="w-[6px] h-[6px] rounded-full bg-accent "></span>
-                          <p className="text-white/60 text-sm">{item.company}</p>
-                        </div>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </ScrollArea>
-            </div>
-          </TabsContent>
-
-          <TabsContent value="education" className="w-full">
-            <div className="flex flex-col gap-[30px] text-center xl:text-left">
-              <h3 className="text-4xl font-bold">{education.title}</h3>
-              <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
-                {education.description}
-              </p>
-              <ScrollArea className="h-[400px]">
-                <ul className="grid grid-cols-2 lg:grid-cols-2 gap-[30px]">
-                  {education.items.map((item, index) => {
-                    return (
-                      <li key={index} className="flex flex-col bg-[#232329] h-[184px] rounded-xl py-6 px-10 items-center lg:items-start gap-1">
-                        <span className="text-accent">{item.duration}</span>                        
-                        <h3 className="text-xl max-w-[260px] min-h-[60px] text-centerlg:text-left">{item.degree}</h3>
-                        <div className="flex items-center gap-3">
-                          <span className="w-[6px] h-[6px] rounded-full bg-accent "></span>
-                          <p className="text-white/60 text-sm">{item.institution}</p>
-                        </div>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </ScrollArea>
-            </div>
-          </TabsContent>
-
-          <TabsContent value="skills" className="w-full h-full">
-            <div className="flex flex-col gap-[30px]">
+          <div className="min-h-[70vh] w-full">
+            <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
-              <h3 className="text-4xl font-bold">{skills.title}</h3>
-              <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
-                {skills.description}
-              </p>
+                <h3 className="text-4xl font-bold">{experience.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {experience.description}
+                </p>
+                <ScrollArea className="h-[400px]">
+                  <ul className="grid grid-cols-2 lg:grid-cols-2 gap-[30px]">
+                    {experience.items.map((item, index) => {
+                      return (
+                        <li key={index} className="flex flex-col bg-[#232329] h-[184px] rounded-xl py-6 px-10 items-center lg:items-start gap-1">
+                          <span className="text-accent">{item.duration}</span>                        
+                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-centerlg:text-left">{item.position}</h3>
+                          <div className="flex items-center gap-3">
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent "></span>
+                            <p className="text-white/60 text-sm">{item.company}</p>
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </ScrollArea>
               </div>
-                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
-                  {skills.skillList.map((skills, index) => {
+            </TabsContent>
+
+            <TabsContent value="education" className="w-full">
+              <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                <h3 className="text-4xl font-bold">{education.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {education.description}
+                </p>
+                <ScrollArea className="h-[400px]">
+                  <ul className="grid grid-cols-2 lg:grid-cols-2 gap-[30px]">
+                    {education.items.map((item, index) => {
+                      return (
+                        <li key={index} className="flex flex-col bg-[#232329] h-[184px] rounded-xl py-6 px-10 items-center lg:items-start gap-1">
+                          <span className="text-accent">{item.duration}</span>                        
+                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-centerlg:text-left">{item.degree}</h3>
+                          <div className="flex items-center gap-3">
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent "></span>
+                            <p className="text-white/60 text-sm">{item.institution}</p>
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </ScrollArea>
+              </div>
+            </TabsContent>
+
+            <TabsContent value="skills" className="w-full h-full">
+              <div className="flex flex-col gap-[30px]">
+                <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                <h3 className="text-4xl font-bold">{skills.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {skills.description}
+                </p>
+                </div>
+                  <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+                    {skills.skillList.map((skills, index) => {
+                      return (
+                        <li key={index}>
+                        <TooltipProvider delayDuration={100}>
+                          <Tooltip>
+                            <TooltipTrigger className="w-full h-[150px] bg-[#232329] group rounded-xl flex justify-center items-center">
+                            <div className="text-6xl group-hover:text-accent transition-all duration-300">{skills.icon}</div> 
+                            </TooltipTrigger>
+                            <TooltipContent>
+                              <p className="capitalize">{skills.name}</p>
+                            </TooltipContent>
+                          </Tooltip>
+                        </TooltipProvider>
+                        </li>
+                      );
+                    })}
+                  </ul>
+              </div>
+            </TabsContent>
+
+            <TabsContent value="about" className="w-full text-centerxl:text-left">
+              <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                <h3 className="text-4xl font-bold">{about.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
+                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[600px] mx-auto xl:mx-0">
+                  {about.info.map((info, index) => {                  
                     return (
-                      <li key={index}>
-                      <TooltipProvider delayDuration={100}>
-                        <Tooltip>
-                          <TooltipTrigger className="w-full h-[150px] bg-[#232329] group rounded-xl flex justify-center items-center">
-                          <div className="text-6xl group-hover:text-accent transition-all duration-300">{skills.icon}</div> 
-                          </TooltipTrigger>
-                          <TooltipContent>
-                            <p className="capitalize">{skills.name}</p>
-                          </TooltipContent>
-                        </Tooltip>
-                      </TooltipProvider>
+                      <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
+                        <span className="text-white/60"> {info.fieldName}</span>
+                        <span className="text-white/100"> {info.fieldValue}</span>
                       </li>
                     );
                   })}
                 </ul>
-
-            </div>
-          </TabsContent>
-          <TabsContent value="about" className="w-full">Acerca de mi</TabsContent>
-        </div>
-        
+              </div>
+            </TabsContent>
+          </div>
         </Tabs>      
       </div>
-      </motion.div>
+    </motion.div>
   )
 }
 
