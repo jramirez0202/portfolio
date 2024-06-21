@@ -38,10 +38,9 @@ const Button = React.forwardRef(({ className, variant, size, asChild = false, ..
   );
 })
 
-
 const DownloadCvButton = () => {
   return (
-    <a href="/johan_ramirez.pdf" download>
+    <a href="/assets/johan_ramirez.pdf" download>
       <Button
         variant="outline"
         size="lg"

@@ -20,7 +20,7 @@ const Home = () => {
               Apasionado desarrollador fullstack en constante aprendizaje.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <DownloadCvButton/> 
+              <DownloadCvButton/>
                 <div className="mb-8 xl:mb-0">
                   <Social 
                     containerStyles="flex gap-6"
